@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="mx-4">
         {/* Footer-container */}
         <div className="my-10">
-          <div className="md:flex md:border-t md:gap-16">
+          <div className="md:flex md:border-t md:gap-36">
             <div className="border-t pt-10 text-center md:text-start md:w-80 md:border-none">
               <h4 className="mb-5 text-xs font-extralight text-gray-500 w-full">
                 THANK YOU
@@ -76,7 +76,7 @@ export default function Footer() {
                   </svg>
                 </button>
               </div>
-              <div className="mt-5 flex justify-center gap-2.5 md:justify-end">
+              <div className="mt-5 flex justify-center gap-2.5">
                 <div>
                   <svg
                     viewBox="0 0 38 24"

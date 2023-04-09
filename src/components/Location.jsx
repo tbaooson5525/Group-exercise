@@ -4,8 +4,8 @@ export default function Location() {
       {/* Container */}
       <div className="my-12 mx-4">
         {/* Location-container */}
-        <div className="relative">
-          <div className="max-w-7xl h-60 lg:h-auto">
+        <div className="relative mx-auto max-w-full">
+          <div className="h-60 lg:h-auto">
             <img
               className="w-full h-full object-cover"
               src="https://cdn.shopify.com/s/files/1/0691/4641/files/poketo_d32cc356-f79d-464c-8f1a-e0963921d82b_1380x400_crop_center.jpg?v=1613532931"
