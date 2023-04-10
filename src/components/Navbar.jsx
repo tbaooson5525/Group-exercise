@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import Offcanvas from "./OffCanvas";
 
 export default function NavBar() {
@@ -73,23 +72,5 @@ export default function NavBar() {
         </div>
       </div>
     </section>
-=======
-export default function NavBar() {
-  return (
-    <div>
-      {/*Container */}
-      <div>
-        {/* Navbar Container */}
-        <div>
-          {/* Icon web */}
-          <div></div>
-          {/* catelogy */}
-          <div></div>
-          {/* Icon cart */}
-          <div></div>
-        </div>
-      </div>
-    </div>
->>>>>>> Stashed changes
   );
 }
