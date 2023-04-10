@@ -73,7 +73,7 @@ export default function Product () {
             {/* Sale Picture  */}
             <div className="mx-[53px] text-center bg-cover bg-[url('sale-notebook.jpg')]">
                 <a href="">
-                    <p className="text-white text-sm md:text-base lg:text-xl pt-9 max-w-[300px] mx-auto">Don't miss out!</p>
+                    <p className="text-white text-sm md:text-base lg:text-xl pt-6 max-w-[300px] mx-auto">Don't miss out!</p>
                     <p className="text-white py-5 max-w-[280px] mx-auto text-3xl">25% OFF NOTEBOOKS</p>
                 </a>
             </div>
