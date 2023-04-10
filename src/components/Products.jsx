@@ -2,8 +2,8 @@ export default function Product () {
     return (
         <section>
             {/* Product Header */}
-            <div className="py-16 mx-3.5 mt-12 text-center">
-                <h2 className="text-3xl text-sky-900 tracking-[.035em]">We make products that help you create art everyday.</h2>
+            <div className="py-[60px] mx-[22.8px] mt-12 text-center">
+                <h2 className="font-custom text-3xl text-[#06356a] font-medium">We make products that help you create art everyday.</h2>
             </div>
 
             {/* Product Grid */}
