@@ -5,9 +5,9 @@ export default function Location() {
       <div className="my-12 mx-4">
         {/* Location-container */}
         <div className="relative mx-auto max-w-full">
-          <div className="h-60 lg:h-auto">
+          <div className="">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-[280px] lg:h-[400px] object-cover"
               src="https://cdn.shopify.com/s/files/1/0691/4641/files/poketo_d32cc356-f79d-464c-8f1a-e0963921d82b_1380x400_crop_center.jpg?v=1613532931"
               alt=""
             />
