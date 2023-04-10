@@ -6,15 +6,15 @@ export default function Newsletter() {
         {/* Newsletter-container */}
         <div className="pb-5 pt-12 px-5">
           <div className="text-center mb-9">
-            <h2 className="text-blue-900 text-lg mp-3">Newsletter</h2>
-            <p className="my-4 text-xs font-light text-gray-500">
+            <h2 className="text-blue-900 text-2xl mp-3">Newsletter</h2>
+            <p className="my-4 text-base font-light text-gray-500">
               Sign up and receive 20% off your first online order!
             </p>
           </div>
-          <div className="relative w-full mx-auto sm:w-96">
+          <div className="relative w-full mx-auto max-w-lg">
             <div className="mr-3 w-full">
               <input
-                className="py-1.5 pl-2.5 pr-14 w-full text-xs font-extralight text-gray-200 border border-gray-300 rounded"
+                className="leading-6 py-1.5 pl-2.5 pr-14 w-full text-[15px] font-extralight text-gray-200 border border-gray-300 rounded"
                 type="text"
                 placeholder="your@email.com"
               />
