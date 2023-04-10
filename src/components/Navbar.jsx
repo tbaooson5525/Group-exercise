@@ -1,10 +1,22 @@
+import Offcanvas from "./OffCanvas";
+
 export default function NavBar(){
     return(
-        <div>
+        <section>
             {/*Container */}
             <div>
                 {/* Navbar Container */}
                 <div>
+                    {/* Navbar Offcanvas */}
+                   <Offcanvas>
+                    
+                   </Offcanvas>
+                   
+
+
+                    
+
+
                     {/* Icon web */}
                     <div>
 
@@ -21,6 +33,6 @@ export default function NavBar(){
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
