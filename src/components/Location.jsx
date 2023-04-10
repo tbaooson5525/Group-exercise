@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 export default function Location() {
   return (
     <section>
@@ -23,3 +24,5 @@ export default function Location() {
     </section>
   );
 }
+=======
+>>>>>>> Stashed changes

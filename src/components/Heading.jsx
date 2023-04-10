@@ -1,5 +1,3 @@
-export default function Heading(){
-    return(
-        <div></div>
-    )
+export default function Heading() {
+  return <div></div>;
 }
