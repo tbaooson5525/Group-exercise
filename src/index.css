@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Madera";
+    src: url(../public/Madera-font/Monotype-Madera-Regular.ttf);
+}
