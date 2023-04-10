@@ -12,11 +12,11 @@ export default function Location() {
               alt=""
             />
           </div>
-          <div className="text-center mt-5 lg:absolute lg:left-2/4 lg:top-2/4 lg:-translate-x-2/4 lg:-translate-y-2/4 lg:border lg:p-6 bg-white">
-            <h4 className="pb-5 text-xs font-medium text-gray-600">VICTORIA LOCATION</h4>
-            <p className="pb-1.5 text-xs font-extralight">1221 Broad Street</p>
-            <p className="pb-1.5 text-xs font-extralight">Tuesday to Sunday: 10 - 5</p>
-            <p className="text-xs font-extralight">+1 (250) 555-5555</p>
+          <div className="text-center text-base mt-5 lg:absolute lg:left-2/4 lg:top-2/4 lg:-translate-x-2/4 lg:-translate-y-2/4 lg:border lg:p-6 bg-white">
+            <h4 className="pb-5 font-medium text-gray-600">VICTORIA LOCATION</h4>
+            <p className="pb-1.5 font-extralight">1221 Broad Street</p>
+            <p className="pb-1.5 font-extralight">Tuesday to Sunday: 10 - 5</p>
+            <p className="font-extralight">+1 (250) 555-5555</p>
           </div>
         </div>
       </div>

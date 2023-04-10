@@ -5,48 +5,48 @@ export default function Footer() {
       <div className="mx-4">
         {/* Footer-container */}
         <div className="my-10">
-          <div className="md:flex md:border-t md:gap-36">
+          <div className="md:flex md:border-t md:gap-36 tracking-wider">
             <div className="border-t pt-10 text-center md:text-start md:w-80 md:border-none">
-              <h4 className="mb-5 text-xs font-extralight text-gray-500 w-full">
+              <h4 className="mb-5 text-[10.25px] font-extralight text-gray-500 w-full">
                 THANK YOU
               </h4>
-              <p className="text-xs font-extralight leading-6 w-full">
+              <p className="text-[15px] text-[#4f4f4f] font-light leading-6 w-full">
                 Big thanks to the lovely folks over at{" "}
                 <a className="text-red-500" href="">
                   Poketo
                 </a>{" "}
-                for allowing us to use their incredible imageryima in this demo
+                for allowing us to use their incredible imagery in this demo
                 theme. Head on over to their site to shop these products for
                 real.
               </p>
             </div>
             <div className="mt-7 mx-1.5 border-t pt-6 text-center flex flex-col md:text-start md:flex md:flex-row md:items-start md:w-96 md:border-none md:gap-20">
               <div className="mb-5">
-                <h4 className="mb-5 text-xs font-extralight text-gray-500">
+                <h4 className="mb-5 text-[10.25px] font-extralight text-gray-600">
                   SHOP
                 </h4>
-                <ul>
-                  <li className="mt-2.5 text-xs font-extralight">
+                <ul className="text-[15px]">
+                  <li className="mt-2.5 font-extralight">
                     New Arrivals
                   </li>
-                  <li className="mt-2.5 text-xs font-extralight">Stationary</li>
-                  <li className="mt-2.5 text-xs font-extralight">Home Goods</li>
-                  <li className="mt-2.5 text-xs font-extralight">Sale</li>
+                  <li className="mt-2.5 font-extralight">Stationary</li>
+                  <li className="mt-2.5 font-extralight">Home Goods</li>
+                  <li className="mt-2.5 font-extralight">Sale</li>
                 </ul>
               </div>
               <div className="mt-2.5 mb-5 md:mt-0">
-                <h4 className="mb-5 text-xs font-extralight text-gray-500">
+                <h4 className="mb-5 text-[10.25px] font-extralight text-gray-600">
                   SUPPORT
                 </h4>
-                <ul>
-                  <li className="mt-2.5 text-xs font-extralight">Shipping</li>
-                  <li className="mt-2.5 text-xs font-extralight">Returns</li>
-                  <li className="mt-2.5 text-xs font-extralight">Workshops</li>
-                  <li className="mt-2.5 text-xs font-extralight">Contact</li>
+                <ul className="text-[15px]">
+                  <li className="mt-2.5 font-extralight">Shipping</li>
+                  <li className="mt-2.5 font-extralight">Returns</li>
+                  <li className="mt-2.5 font-extralight">Workshops</li>
+                  <li className="mt-2.5 font-extralight">Contact</li>
                 </ul>
               </div>
               <div className="mt-6 md:mt-0">
-                <h4 className="mb-5 text-xs font-extralight text-gray-500">
+                <h4 className="mb-5 text-[10.25px] font-extralight text-gray-600">
                   TWITTER
                 </h4>
               </div>
@@ -55,10 +55,10 @@ export default function Footer() {
           <div className="mt-10 border-t pt-8 md:flex md:flex-row-reverse md:gap-52 lg:gap-80">
             <div className="md:flex-grow">
               <div className="pl-2.5 pb-2.5 relative">
-                <button className="text-xs font-extralight py-0.5 pl-2.5 pr-6 border rounded  hover:ring-1">
+                <button className="text-[13.125px] leading-6 font-extralight py-0.5 pl-2.5 pr-8 border rounded  hover:ring-1">
                   USD$
                 </button>
-                <button className="w-3.5 h-2.5 absolute top-1.5 left-14">
+                <button className=" w-4 h-2.5 absolute top-1.5 left-16">
                   <svg
                     className="text-blue-800"
                     fill="none"
@@ -76,9 +76,10 @@ export default function Footer() {
                   </svg>
                 </button>
               </div>
-              <div className="mt-5 flex justify-center gap-2.5">
-                <div>
+              <div className=" mt-5 flex justify-center gap-2.5">
+                <div className="font-xl">
                   <svg
+                  
                     viewBox="0 0 38 24"
                     xmlns="http://www.w3.org/2000/svg"
                     role="img"
