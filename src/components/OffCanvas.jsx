@@ -1,4 +1,4 @@
-export default function Offcanvas({ chidren }) {
+export default function Offcanvas() {
   return (
     <div>
       <button>
@@ -16,6 +16,11 @@ export default function Offcanvas({ chidren }) {
           />
         </svg>
       </button>
+      <div>
+
+      </div>
+
+      
     </div>
   );
 }
